@@ -11,9 +11,11 @@ export default function MainLayout({children}) {
             <div> 
                 <TopMenu />
                 <MainHeader />
-                <SubMenu />
+                <SubMenu /> 
+                <div style={{ marginTop: '5px' }}>{children}</div>
                 <Footer />
             </div>
+
         </div>
         </>
     )

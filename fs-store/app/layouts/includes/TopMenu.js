@@ -56,8 +56,8 @@ export default function TopMenu() {
                     className="flex items-center text-[11px] text-[#333333] px-2 h-8"
                 >
                     <li className="flex items-center gap-2 px-3 hover:underline cursor-pointer">
+                            Deliver to
                             <img width={32} src="/images/kaz.png"/>
-                            Ship to
                     </li>
 
                     <li className="px-3 hover:underline cursor-pointer">
